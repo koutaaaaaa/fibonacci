@@ -138,7 +138,7 @@ unsigned solve(){
     {{1,1,0},
      {1,0,0},
      {1,0,1}};
-    B = pow(B , n);
+    B = pow(B , n-1);
     B *= A;
     cout << "fibonacci: " << B.mat[1][0] << endl;
     cout << "sum_of_fibonacci: " << B.mat[2][0] << endl;
